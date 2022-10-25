@@ -1,0 +1,47 @@
+<!-- Mobile, portrait -->
+min: 320px & max: 414px
+
+<!-- Mobile, landscape -->
+min: 568px & max: 812px
+
+<!-- Tablet, portrait -->
+min: 768px & max: 834px
+
+<!-- Tablet, landscape -->
+min:1024px & max: 1112px
+
+<!-- Laptop displays -->
+min:1366px & max: 1440px
+
+<!-- Desktop displays -->
+min:1680px & max: 1920px
+
+/* mobile */
+@media (min-width: 568px){
+
+}
+
+/* tablet & Laptop */
+@media (min-width: 813px){
+
+}
+
+/* Desktop) */
+@media (min-width: 1023px){
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+
+@media (orientation: portrait) {
+    .orientation:after {
+      content: " Portrait.";
+    }
+  }
+  
+  @media (orientation: landscape) {
+    .orientation:after {
+      content: " Landscape.";
+    }
+  }
